@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGO_URI = 'mongodb+srv://ashutosh2015:Kanha%402015@cluster0.ak50fec.mongodb.net/ProjectClientManagement_DB?retryWrites=true&w=majority'
+const MONGO_URI = NULL;
 const connectDB = async () => {
   const conn = await mongoose.connect(MONGO_URI);
 
